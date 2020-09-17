@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+header{
+  width: 100%;
+  background: black;
+  height:70px;
+}
+.ancho{
+  width: 80%;
+  height:70px;
+  background: red;
+  margin: auto;
+
+}
+.logo{
+  width: 30%;
+  height: 70px;
+  background: black;
+  float: left;
+  padding top: 10px;
+  box-sizing:border-box; 
+ 
+}
+nav{
+  width: 70%;
+  height: 70px;
+  background: black;
+  float: left;
+  text-align: right;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+.logo p a {
+  color: #fff;
+  font-size: 40px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li{
+display: inline;
+
+}
+nav ul li a{
+  color:#fff;
+  font-size:13px; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+  color: #444;
+}
+.contenedor-columnas{
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 50px;
+ padding-top: 70px;
+ background:  #339CFF;
+
+
+}
+.columnax1{
+ width: 33.333%;
+ float:left;
+padding-left: 20px 20px;
+box-sizing: border-box;
+margin: auto;
+background: #339CFF;
+
+
+}
+.wap{
+  width: 90%;
+  margin: auto;
+
+}
+.musica{
+  margin-top: 50px;
+  text-align: center;
+   padding-top: 24px;
+}
+h3 {
+  text-align: center;
+  background: #339CFF; 
+  height: 40px;
+  color :#fff;
+ 
+
+  
+}
+h1{
+  padding: 35px;
+  color:black;
+  text-align: center;
+
+
+}
+p{
+  color:black;
+  text-align: left;
+  padding-left: 15px;
+ text-transform:capitalize;
+
+}
+h3:hover{
+  color: #444;
+  height: 40px;
+}
+h1:hover{
+ color: #fff;
+}
